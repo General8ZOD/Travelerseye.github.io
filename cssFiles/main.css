@@ -1,0 +1,55 @@
+/* main css file to be used throughout all webpages */
+#wrapper {
+    margin: auto;
+    width: 85%;
+}
+nav {
+    width: 85%;
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 5px;
+    border-radius: 15px;
+    border-style: solid;
+}
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+header {
+    border-style: solid;
+    padding: 10px;
+}
+.boxGroup1 {
+    border-style: dashed;
+    padding: 2%;
+}
+.infoBox {
+    margin-right: 10px;
+    width: 30%;
+    display: inline-block;
+    border-style: solid;
+    padding: 10px;
+}
+.boxGroup2 {
+    border-style: dashed;
+    padding: 10px;
+}
+.infoBox2 {
+    display: inline-block;
+    border-style: solid;
+    padding: 10px;
+}
+.boxGroup3 {
+    border-style: solid;
+    padding: 10px;
+}
+footer {
+    border-style: dashed;
+    padding: 10px;
+}
+.footerBox {
+    display: inline-block;
+    border-style: solid;
+    padding: 10px;
+}
