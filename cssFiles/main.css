@@ -1,55 +1,123 @@
-/* main css file to be used throughout all webpages */
+/* main css file to be used throughout all webpages 
+GREEN - #8D8741
+BLUE - #659DBD
+PINK - #DAAD86
+BROWN - #BC986A
+SAND - #FBEEC1
+*/
+body {
+    background-color: #FBEEC1;
+    font-family: Arial, Helvetica, sans-serif, Verdana;
+}
+.logoIcon {
+    mix-blend-mode: multiply;
+}
+
 #wrapper {
     margin: auto;
     width: 85%;
+    border-radius: 15px;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: #61717a;
 }
 nav {
-    width: 85%;
-    list-style-type: none;
+    background-color: #8D8741;
+    width: 100%;
     display: inline-flex;
     align-items: center;
     padding-left: 5px;
     border-radius: 15px;
-    border-style: solid;
+    border-style: none;
+}
+#navBtns {
+    padding-left: 200px;
 }
 nav li {
     display: inline-block;
     padding: 10px;
+    padding-left: 20px;
 }
 header {
-    border-style: solid;
+    background-color: #DAAD86;
+    border-style: none;
     padding: 10px;
+    margin-top: 5px;
+    height: 300px;
+    border-radius: 15px;
+    align-self: center;
 }
 .boxGroup1 {
-    border-style: dashed;
+    border-style: none;
     padding: 2%;
+    margin-top: -100px;
+}
+.icon {
+    border-radius: 50%;
+    margin-left: 25%;
+    width: 150px;
+    height: 150px;
 }
 .infoBox {
-    margin-right: 10px;
+    background-color: #BC986A;
+    margin-left: 8px;
     width: 30%;
+    justify-content: center;
     display: inline-block;
-    border-style: solid;
+    border-style: none;
+    border-radius: 15px;
     padding: 10px;
 }
 .boxGroup2 {
-    border-style: dashed;
-    padding: 10px;
+    border-style: none;
+    padding: 5px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+}
+.continentIcon {
+    border-radius: 15px 50px;
+    margin-left: 5%;
+    width: 200px;
+    height: 200px;
 }
 .infoBox2 {
+    background-color: #e4c8a5;
     display: inline-block;
-    border-style: solid;
+    border-style: none;
+    border-radius: 15px;
     padding: 10px;
+    margin: 4px;
+    width: 22%;
+    height: fit-content;
 }
 .boxGroup3 {
-    border-style: solid;
-    padding: 10px;
-}
-footer {
     border-style: dashed;
     padding: 10px;
+    margin: 20px;
+}
+.boxGroup3 .title {
+    margin-top: -55px;
+    text-align: center;
+}
+.profile {
+    width: 30%;
+    padding: 10px;
+    border-style: dashed;
+    background-color: #BC986A;
+}
+footer {
+    background-color: #8D8741;
+    border-style: none;
+    padding: 10px;
+    border-radius: 15px;
 }
 .footerBox {
     display: inline-block;
-    border-style: solid;
+    border-style: dashed;
     padding: 10px;
+    margin: 4%;
 }
