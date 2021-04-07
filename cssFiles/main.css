@@ -36,7 +36,7 @@ nav {
 #navBtns {
     padding-left: 200px;
 }
-nav li {
+li {
     display: inline-block;
     padding: 10px;
     padding-left: 20px;
@@ -49,53 +49,81 @@ header {
     height: 300px;
     border-radius: 15px;
     align-self: center;
+    display: flex;
+    justify-content: center;
+}
+#pageID {
+    height: 70%;
+    border-radius: 15px;
+}
+.headBox {
+    border-style: none;
+    display: inline-block;
+    padding-left: 4%;
+    margin-top: 5%;
+    width: 45%;
+}
+.headBox span {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.headBox p {
+    font-size: large;
 }
 .boxGroup1 {
     border-style: none;
     padding: 2%;
     margin-top: -100px;
+    display: flex;
+    justify-content: center;
 }
 .icon {
     border-radius: 50%;
-    margin-left: 25%;
     width: 150px;
     height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .infoBox {
     background-color: #BC986A;
-    margin-left: 8px;
-    width: 30%;
-    justify-content: center;
+    margin: 1%;
+    width: 25%;
     display: inline-block;
     border-style: none;
     border-radius: 15px;
     padding: 10px;
 }
 .boxGroup2 {
-    border-style: none;
-    padding: 5px;
-    border-style: none;
     display: flex;
     justify-content: center;
+    border-style: none;
+    padding: 2%;
 }
 .continentIcon {
     border-radius: 15px 50px;
-    margin-left: 5%;
-    width: 200px;
-    height: 200px;
+    margin-left: auto;
+    margin-right: auto; 
+    /*width: 150px;
+    height: 150px; */
+    width: 85%;
+    height: 45%;
+    display: block; 
 }
 .infoBox2 {
     background-color: #e4c8a5;
     display: inline-block;
     border-style: none;
     border-radius: 15px;
-    padding: 10px;
-    margin: 4px;
-    width: 22%;
-    height: fit-content;
-}
+    padding: 2%; 
+    margin: 0.5%;
+    width: 30%;
+} 
 .boxGroup3 {
     border-style: dashed;
+    display: flex;
+    justify-content: center;
     padding: 10px;
     margin: 20px;
 }
@@ -106,18 +134,23 @@ header {
 .profile {
     width: 30%;
     padding: 10px;
-    border-style: dashed;
+    margin: 0.5%;
+    border-style: none;
+    border-radius: 15px;
     background-color: #BC986A;
 }
 footer {
+    width: 100%;
     background-color: #8D8741;
     border-style: none;
-    padding: 10px;
+    padding: 5px;
     border-radius: 15px;
+    margin-bottom: 0%;
 }
 .footerBox {
     display: inline-block;
     border-style: dashed;
-    padding: 10px;
-    margin: 4%;
+    padding: 5px;
+    margin-left: 1%;
+    width: 40%;
 }
