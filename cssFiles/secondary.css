@@ -1,4 +1,4 @@
-/* css file for secondary webpage */
+
 .continentPic {
     width: 250px;
     height: 250px;
@@ -8,8 +8,11 @@
     display:flex; 
     padding: 2%;
     background-size: 100%;
-}
 
+}
+.grouping1 h2 {
+    color: #659DBD;
+}
 .box{
     padding: 2%;
     width: 50%;
@@ -23,10 +26,13 @@
 .grouping2{
     padding: 2%;
     width: 89%;
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: #e4c8a5;
     margin-right: 4.5%;
-    margin-left:4%
+    margin-left:4%;
+}
+.grouping2 h2 {
+    color: #659DBD;
 }
 .sections{
     font-family:Arial, Helvetica, sans-serif;
